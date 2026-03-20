@@ -7,11 +7,23 @@ CREATE TABLE documents (
   uploaded_at   TIMESTAMP DEFAULT NOW()
 );
 
--- Example insert (replace with your actual files):
--- INSERT INTO documents (file_name, file_path, extracted_text, preview)
--- VALUES (
---   'example.pdf',
---   'C:\Users\Laptops Garage\Documents\iskcon\example.pdf',
---   'full extracted text here...',
---   'Short description of what this document is about.'
--- );
+INSERT INTO documents (file_name, file_path, extracted_text, preview) VALUES (
+  '2024 ISKCON I&E.xlsx',
+  'C:\Users\Laptops Garage\Documents\iskcon\2024 ISKCON I&E.xlsx',
+  '',
+  'ISKCON income and expenditure report for the full year 2024.'
+);
+
+INSERT INTO documents (file_name, file_path, extracted_text, preview) VALUES (
+  '2025 ISKCON DC Non-Operating I&E (by month).xlsx',
+  'C:\Users\Laptops Garage\Documents\iskcon\2025 ISKCON DC Non-Operating I&E (by month).xlsx',
+  '',
+  'ISKCON DC non-operating income and expenditure breakdown by month for 2025.'
+);
+
+INSERT INTO documents (file_name, file_path, extracted_text, preview) VALUES (
+  '2025 ISKCON DC Operating I&E (by month).xlsx',
+  'C:\Users\Laptops Garage\Documents\iskcon\2025 ISKCON DC Operating I&E (by month).xlsx',
+  '',
+  'ISKCON DC operating income and expenditure breakdown by month for 2025.'
+);
